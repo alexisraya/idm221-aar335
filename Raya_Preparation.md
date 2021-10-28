@@ -1,11 +1,10 @@
+# Document Inspiration
 
-### GITHUB: *<https://github.com/alexisraya>*
+GITHUB: *<https://github.com/alexisraya>*
 
-### DOMAIN: *<https://alexisraya.com>*
+DOMAIN: *<https://alexisraya.com>*
 
 ---
-
-# Document Inspiration
 
 ## Site One: *<https://www.jamiejchoi.com/>*
 
@@ -21,8 +20,6 @@ What I really liked about this site was how she layed out her projects. She does
 
 ---
 
-# Content Inventory
-
 ## About Me
 
 Hi! My name is Alexis Raya and I'm a second year UXID student at Drexel University. I chose UXID because of my love for both design and technology, and I believed that this major would be a good fit for me. After spending a year in this field, I have grown to love it for more than it's blend of design and technology. It has made me question and seek to create better user experiences and learn more about design. Eventually, I will also be attaining my masters in digital media.
@@ -33,7 +30,10 @@ I also have a passion for teaching others. Over the past 3 years, I have worked 
 
 Here are some other somewhat interesting facts about myself. I was born and raised in California. My favorite animal is a hippo. I really enjoy horror movies. My favorite color is sunset pink. I like designing video games. My favorite video game is Stardew Valley. Finally, I really enjoy learning and practicing sustainabilty, gardening, and cooking.
 
+---
+
 ## Resume
+
 Alexis Raya
 
 *<https://www.linkedin.com/in/alexis-raya/>*
