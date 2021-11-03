@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #a99ff1;
+    font-style:normal;
+    font-variant: normal;
+    text-decoration: none;
+}
+a:hover {
+    color: #5f57a2;
+}
+
+a.title {
+    color: black
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
