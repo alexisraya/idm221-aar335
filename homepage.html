@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Alexis Raya Portfolio</title>
+	<link rel="stylesheet" href="normalize.css">
 </head>
 <body>
     <header>
@@ -12,14 +13,18 @@
                 <h2 id="subtitle">Art and Design</h2>
             </div>
         </div>
-        <div class="header_menu">
-            <img
-                src="http://placehold.it/30x30"
-                height="40"
-                width="40"
-                alt="menu"
-            />
-        </div>
+		<div class="sidenav">
+			<button class="dropdown-btn">More 
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-container">
+			  <a href="homepage.html">Portfolio</a>
+			  <a href="resume.html">Resume</a>
+			  <a href="aboutme.html">About Me</a>
+			  <a href="contact.html">Contact</a>
+			</div>
+		</div>
+        
     </header>
 
     <main>
@@ -30,6 +35,7 @@
 				height="260"
 				src= "images/home/YLPL.png"
 				width="335"
+				href = "ylpl.html"
 			/>
 			<input 
 				type="image"
@@ -47,10 +53,10 @@
 			/>
 			<input 
 				type="image"
-				src="http://placehold.it/335x260"
-				height="260"
-				width="335"
 				alt="project 4"
+				height="260"
+				src="images/home/CCYL Image.png"
+				width="335"
 			/>
 		</div>
     </main>
