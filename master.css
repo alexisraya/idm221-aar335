@@ -1,21 +1,40 @@
 * {
     box-sizing: border-box;
+    background-color: #F3EAE2;
+    color: #2B1D13;
 }
 
 a {
-    color: #a99ff1;
     font-style:normal;
     font-variant: normal;
     text-decoration: none;
 }
-a:hover {
-    color: #5f57a2;
+a.menu{
+    margin:1rem;
+}
+h1{
+    font-size: 5rem;
 }
 
-a.title {
-    color: black
+h2{
+    font-size:3rem;
 }
-
 p {
     font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+nav{
+    font-size:2rem;
+}
+
+#title, #subtitle {
+    border: 0rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+#title{
+    margin-top: 2.5rem;
+}
+#subtitle {
+    margin-bottom: 1rem;
 }
