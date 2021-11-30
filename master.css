@@ -25,15 +25,19 @@ a.menu{
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 h2{
-    font-size:3rem;
+    font-size:6rem;
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 5.75rem;
+}
+
+h4{
+    font-size: 6rem;
 }
 
 .header_brand{
@@ -42,10 +46,10 @@ h3{
 
 p {
     font-family: 'Noto Serif', 'Times New Roman', Times, serif;
-    font-size: medium;
+    font-size: 3.25rem;
 }
 nav{
-    font-size:2rem;
+    font-size:3.25rem;
     margin-bottom: 1rem;
 }
 
