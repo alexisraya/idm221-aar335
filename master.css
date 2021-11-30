@@ -1,17 +1,30 @@
+font-face {
+    font-family: 'Work Sans';
+    src: url('fonts/WorkSans-Regular.woff2') format('woff2');
+}
+
+font-face {
+    font-family: 'Noto Serif';
+    src: url('fonts/NotoSerif.woff2') format('woff2');
+}
+
 * {
     box-sizing: border-box;
     background-color: #F3EAE2;
     color: #2B1D13;
+    font-family: 'Work Sans', Impact, Arial, sans-serif;
 }
 
 a {
     font-style:normal;
+    font-family: 'Noto Serif', 'Times New Roman', Times, serif;
     font-variant: normal;
     text-decoration: none;
 }
 a.menu{
     margin:1rem;
 }
+
 h1{
     font-size: 5rem;
 }
@@ -19,12 +32,22 @@ h1{
 h2{
     font-size:3rem;
 }
+
+h3{
+    font-size: 1.5rem;
+}
+
+.header_brand{
+    margin-left: 1rem;
+}
+
 p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif', 'Times New Roman', Times, serif;
     font-size: medium;
 }
 nav{
     font-size:2rem;
+    margin-bottom: 1rem;
 }
 
 #title, #subtitle {
@@ -37,4 +60,104 @@ nav{
 }
 #subtitle {
     margin-bottom: 1rem;
+}
+
+.hero_container{
+    background-color: #DDB892;
+    float: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0rem 0rem 1rem 0rem;
+    border-radius: 0%;
+}
+
+.h_img{
+    background-color: transparent;
+}
+.hero_image{
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.hero_title{
+    background-color: transparent;
+    color: #F3EAE2;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+.hero_text{
+    background-color: transparent;
+    color: #2B1D13;
+    margin-left: 1rem;
+    text-align:left;
+}
+
+.hero_link{
+    background-color: #7F5539;
+    color: #F3EAE2;
+    float: left;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10%;
+    text-align:center;
+}
+
+hr{
+    background-color: #7F5539;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.project_container_right{
+    background-color: #DDB892;
+    overflow: hidden;
+    margin: 1rem 3rem 2rem 3rem;
+    border-radius: 5%;
+}
+.p_img{
+    background-color: transparent;
+}
+.project_image{
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.project_title{
+    background-color: transparent;
+    color: #F3EAE2;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+.project_text{
+    background-color: transparent;
+    color: #2B1D13;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align:left;
+}
+
+.project_link{
+    background-color: #7F5539;
+    color: #F3EAE2;
+    float: left;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10%;
+    text-align:center;
+}
+
+footer{
+    background-color: #B08968;
+    margin: 1rem 0rem;
+    border: 1rem 0rem;
+    padding: 1rem 0rem;
+}
+
+.footer_text{
+    color: #F3EAE2;
+    background-color: transparent;
+    text-align: center;
 }
