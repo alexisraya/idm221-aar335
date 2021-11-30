@@ -9,7 +9,6 @@ font-face {
 }
 
 * {
-    box-sizing: border-box;
     background-color: #F3EAE2;
     color: #2B1D13;
     font-family: 'Work Sans', Impact, Arial, sans-serif;
@@ -72,23 +71,23 @@ nav{
 }
 
 .h_img{
-    background-color: transparent;
+    background-color: #DDB892;
 }
 .hero_image{
-    background-color: transparent;
+    background-color: #DDB892;
     height: auto;
     width: 100%;
     margin: 0rem 0rem 1rem 0rem;
 }
 
 .hero_title{
-    background-color: transparent;
+    background-color: #DDB892;
     color: #F3EAE2;
     margin: 1rem 0rem 0rem 1rem;
 }
 
 .hero_text{
-    background-color: transparent;
+    background-color: #DDB892;
     color: #2B1D13;
     margin-left: 1rem;
     text-align:left;
@@ -116,10 +115,10 @@ hr{
     border-radius: 5%;
 }
 .p_img{
-    background-color: transparent;
+    background-color: #DDB892;
 }
 .project_image{
-    background-color: transparent;
+    background-color: #DDB892;
     height: auto;
     width: 100%;
     margin: 0rem 0rem 1rem 0rem;
