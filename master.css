@@ -23,16 +23,23 @@ a {
     font-variant: normal;
     text-decoration: none;
 }
+
+a:active{
+    color:#DDB892;
+}
 a.menu{
     margin:1rem;
 }
 
+.inline{
+    color: #B08968;
+}
 h1{
     font-size: 6rem;
 }
 
 h2{
-    font-size:5rem;
+    font-size:4.5rem;
 }
 
 h3{
