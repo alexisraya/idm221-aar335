@@ -1,17 +1,17 @@
 font-face {
     font-family: 'Work Sans';
-    src: url('fonts/WorkSans-Regular.woff2') format('woff2');
+    src: url('/fonts/WorkSans-Regular.woff2') format('woff2');
 }
 
 font-face {
     font-family: 'Noto Serif';
-    src: url('fonts/NotoSerif.woff2') format('woff2');
+    src: url('../fonts/NotoSerif.woff2') format('woff2');
 }
 
 * {
     background-color: #F3EAE2;
     color: #2B1D13;
-    font-family: 'Work Sans', Impact, Arial, sans-serif;
+    font-family: 'Work Sans', Arial, sans-serif;
 }
 main{
     margin: 1rem;
@@ -27,6 +27,7 @@ a {
 a:active{
     color:#DDB892;
 }
+
 a.menu{
     margin:1rem;
 }
@@ -35,23 +36,23 @@ a.menu{
     color: #B08968;
 }
 h1{
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 h2{
-    font-size:4.5rem;
+    font-size:2rem;
 }
 
 h3{
-    font-size: 4.5rem;
+    font-size: 1.75rem;
 }
 
 h4{
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
 
 h5{
-    font-size: 3.5rem;
+    font-size: 1.3rem;
 }
 
 .header_brand{
@@ -60,11 +61,11 @@ h5{
 
 p, li{
     font-family: 'Noto Serif', 'Times New Roman', Times, serif;
-    font-size: 3.25rem;
+    font-size: 1rem;
 }
 
 nav{
-    font-size:3.25rem;
+    font-size:1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -131,7 +132,8 @@ hr{
 .project_container_right{
     background-color: #DDB892;
     overflow: hidden;
-    margin: 1rem 3rem 2rem 3rem;
+    float: center;
+    margin: 1rem 1rem 2rem 1rem;
     border-radius: 5%;
 }
 .p_img{
@@ -162,7 +164,7 @@ hr{
     background-color: #7F5539;
     color: #F3EAE2;
     float: left;
-    padding: 3rem;
+    padding: 2rem;
     margin: 1rem;
     border-radius: 10%;
     text-align:center;
