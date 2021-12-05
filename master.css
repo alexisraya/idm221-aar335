@@ -13,9 +13,6 @@ font-face {
     color: #2B1D13;
     font-family: 'Work Sans', Arial, sans-serif;
 }
-main{
-    margin: 1rem;
-}
 
 a {
     font-style:normal;
@@ -41,18 +38,22 @@ h1{
 
 h2{
     font-size:2rem;
+    margin: 1rem 0rem .25rem 0rem;
 }
 
 h3{
     font-size: 1.75rem;
+    margin: 1rem 0rem .25rem 0rem;
 }
 
 h4{
     font-size: 1.5rem;
+    margin: 1rem 0rem .25rem 0rem;
 }
 
 h5{
     font-size: 1.3rem;
+    margin: 1rem 0rem .25rem 0rem;
 }
 
 .header_brand{
@@ -61,7 +62,8 @@ h5{
 
 p, li{
     font-family: 'Noto Serif', 'Times New Roman', Times, serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 
 nav{
@@ -120,8 +122,9 @@ nav{
     float: left;
     padding: 3rem;
     margin: 2rem;
-    border-radius: 10%;
+    border-radius: 1rem;
     text-align:center;
+    float: center;
 }
 
 hr{
@@ -132,17 +135,34 @@ hr{
 .project_container_right{
     background-color: #DDB892;
     overflow: hidden;
-    float: center;
-    margin: 1rem 1rem 2rem 1rem;
-    border-radius: 5%;
+    margin: 1rem 0rem 2rem 5rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
+
+.project_container_left{
+    background-color: #DDB892;
+    overflow: hidden;
+    margin: 1rem 5rem 2rem 0rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.top_right, .bottom_right, .top_left, .bottom_left{
+    overflow: hidden;
+    background-color: transparent;
+}
+
+
 .p_img{
     background-color: #DDB892;
 }
 .project_image{
     background-color: #DDB892;
+    overflow: hidden;
+    width: auto;
+    max-width: 30rem;
     height: auto;
-    width: 100%;
     margin: 0rem 0rem 1rem 0rem;
 }
 
@@ -162,17 +182,18 @@ hr{
 
 .project_link{
     background-color: #7F5539;
+    overflow: hidden;
     color: #F3EAE2;
-    float: left;
-    padding: 2rem;
-    margin: 1rem;
-    border-radius: 10%;
+    padding:2rem;
+    margin: 0rem 1rem 1.5rem;
+    border-radius: 1rem;
     text-align:center;
+    float: left;
 }
 
 footer{
     background-color: #B08968;
-    margin: 1rem 0rem 0rem;
+    margin: 2rem 0rem 0rem;
     border: 1rem 0rem;
     padding: 1rem 0rem;
 }
@@ -183,7 +204,14 @@ footer{
     text-align: center;
 }
 
-.about{
+.about, .resume, .case_study{
     margin: 1rem;
+}
 
+.content_section{
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.content_text{
+    margin: 0rem 0rem 1rem 0rem;
 }
