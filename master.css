@@ -215,3 +215,65 @@ footer{
 .content_text{
     margin: 0rem 0rem 1rem 0rem;
 }
+
+.diagram{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    float: center;
+    margin-top: .5rem;
+}
+
+.caption{
+    font-size: .75rem;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.diagram_grid{
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+.row{
+    overflow: hidden;
+    width: 100%;
+    margin:0rem;
+}
+.diagram_l{
+    width: 50%;
+    float: right;
+    margin-left: 0rem;
+}
+
+.diagram_r{
+    width: 50%;
+    float: left;
+    margin-right: 0rem;
+}
+
+/* for NPR Style Guides Testing
+.diagram_1{
+    width: 33.33%;
+    float: left;
+    margin: 0rem;
+}
+.diagram_2{
+    width: 33.33%;
+    float: center;
+    margin: 0rem;
+}
+.diagram_3{
+    width: 33.33%;
+    float: right;
+    margin: 0rem;
+}
+*/
+
+video{
+    width: 100%;
+    height: auto;
+    float: center;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
