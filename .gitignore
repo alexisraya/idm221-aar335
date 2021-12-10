@@ -9,11 +9,6 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-# Files #
-############
-images
-fonts
-
 # Media #
 ############
 *.png
@@ -29,3 +24,8 @@ fonts
 *.ttf
 *.woff
 *.woff2
+
+# Files #
+############
+images
+fonts
