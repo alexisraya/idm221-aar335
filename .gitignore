@@ -9,9 +9,15 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
+# Files #
+############
+images
+fonts
+
 # Media #
 ############
 *.png
+*.JPG
 *.jpg
 *.jpeg
 *.mov
