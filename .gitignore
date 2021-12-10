@@ -1,5 +1,22 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Media #
+############
 *.png
-*.jpeg
 *.jpg
-*.ttf
+*.jpeg
+*.mov
+*.mp3
 *.mp4
+*.ogg
+*.ogv
+*.webm
